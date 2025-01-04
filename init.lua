@@ -22,4 +22,5 @@ require("plugins.treesitter")
 require("plugins.trouble")
 require("plugins.ts-comments")
 require("plugins.whichkey")
-
+require("plugins.MarkDown")
+require("plugins.lazygit")
