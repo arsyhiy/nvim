@@ -80,7 +80,8 @@ return {
       -- Toggle DAP UI
       vim.keymap.set("n", "<leader>du", function()
         dapui.toggle()
-      end, opts)
+      end, opts)  
+
     end,
   },
 }
