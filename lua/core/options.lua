@@ -37,4 +37,3 @@ opt.splitbelow = true -- split horizontal window to the bottom
 opt.swapfile = false
 
 
-vim.cmd[[colorscheme tokyonight-day]]
