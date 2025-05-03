@@ -137,6 +137,10 @@ return {
         -- configure clangd server (with special settings)
         lspconfig["clangd"].setup({
           capabilities = capabilities,
+          on_attach = function(client, bufnr)
+            client.server_capabilities.signatureHelpProvider = false
+            on_attach(client, bufnr)
+              end,
           settings = {
             offsetEncoding = { "utf-8", "utf-16" },
             textDocument = {
