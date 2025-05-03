@@ -133,6 +133,20 @@ return {
           },
         })
       end,
+      ["clangd"] = function()
+        -- configure clangd server (with special settings)
+        lspconfig["clangd"].setup({
+          capabilities = capabilities,
+          settings = {
+            offsetEncoding = { "utf-8", "utf-16" },
+            textDocument = {
+                completion = {
+                  editsNearCursor = true
+                },
+            },
+          },
+        })
+      end,     
     })
   end,
 }
