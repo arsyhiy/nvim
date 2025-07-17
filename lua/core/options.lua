@@ -36,3 +36,10 @@ opt.splitbelow = true -- split horizontal window to the bottom
 -- turn off swapfile
 opt.swapfile = false
 
+vim.o.foldenable = false         -- Не включать folding при запуске
+vim.o.foldlevel = 99             -- Уровень сворачивания по умолчанию
+vim.o.foldlevelstart = 99        -- Начальный уровень (чтобы всё было раскрыто)
+vim.o.foldmethod = "manual"      -- Метод сворачивания: "manual", "indent", "syntax" и т.д.
+
+
+vim.o.termguicolors = true
