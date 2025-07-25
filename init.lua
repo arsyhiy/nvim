@@ -1,4 +1,4 @@
--- core 
+-- core
 require("core.init")
 
 --plugins
@@ -25,6 +25,5 @@ require("plugins.whichkey")
 require("plugins.MarkDown")
 require("plugins.lazygit")
 require("plugins.debugging")
-
 
 vim.g.lazyvim_check_order = false
