@@ -5,3 +5,6 @@ NOTE: rules are  written for only enhancement and controlling my self from  comm
 
 # ideas
 - improving all code in this repo and adding utils for convenient development 
+
+# NOTES for me:
+- updates only on sundays
