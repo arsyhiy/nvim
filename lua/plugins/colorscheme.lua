@@ -1,14 +1,11 @@
 return {
-	-- add colormate.nvim из локального пути
-	{
-		dir = vim.fn.expand("~/colormate.nvim"),
-	},
+  { "arsyhiy/colormate.nvim" },
 
-	-- Configure LazyVim to load gruvbox
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "colormate",
-		},
-	},
+  -- Configure LazyVim to load colormate
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "colormate",
+    },
+  },
 }
