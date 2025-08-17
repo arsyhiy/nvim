@@ -116,3 +116,8 @@ map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
 -- :BarbarDisable - very bad command, should never be used
 
 -- barbar end here 
+
+-- Search for the files with differences to default branch.
+vim.keymap.set({'n', 'v'}, '<leader>gf', function()
+    require('git_branch').files()
+end)
