@@ -1,27 +1,27 @@
 return {
-  "nvim-treesitter/nvim-treesitter",
-  build = ":TSUpdate",
-  event = { "BufReadPost", "BufNewFile" },
+	"nvim-treesitter/nvim-treesitter",
+	build = ":TSUpdate",
+	event = { "BufReadPost", "BufNewFile" },
 
-  opts = {
-    ensure_installed = {
-      "lua",
-      "vim",
-      "vimdoc",
-      "javascript",
-      "typescript",
-      "html",
-      "css",
-      "json",
-      "bash",
-    },
+	opts = {
+		ensure_installed = {
+			"lua",
+			"vim",
+			"vimdoc",
+			"javascript",
+			"typescript",
+			"html",
+			"css",
+			"json",
+			"bash",
+		},
 
-    highlight = {
-      enable = true,
-    },
+		highlight = {
+			enable = true,
+		},
 
-    indent = {
-      enable = true,
-    },
-  },
+		indent = {
+			enable = true,
+		},
+	},
 }

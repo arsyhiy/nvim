@@ -33,12 +33,12 @@ opt.hlsearch = true
 opt.incsearch = true
 
 vim.diagnostic.config({
-  virtual_text = {
-    spacing = 4,
-    prefix = "●",
-  },
-  float = {
-    border = "rounded",
-    source = "always",
-  },
+	virtual_text = {
+		spacing = 4,
+		prefix = "●",
+	},
+	float = {
+		border = "rounded",
+		source = "always",
+	},
 })
