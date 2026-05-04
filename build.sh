@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+# file purposes is to build neovim from scratch  
+
 sudo apt-get install ninja-build gettext cmake curl build-essential git -y
 
 git clone https://github.com/neovim/neovim
