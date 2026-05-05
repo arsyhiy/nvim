@@ -1,5 +1,3 @@
--- TODO: переписать в будущем
-
 return{
   "folke/todo-comments.nvim",
   dependencies = { "nvim-lua/plenary.nvim" },

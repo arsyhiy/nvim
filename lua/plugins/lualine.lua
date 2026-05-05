@@ -1,6 +1,3 @@
--- TODO: переписать в будущем
-
--- lualine basiacly the statusline
 
 return {
   'nvim-lualine/lualine.nvim',

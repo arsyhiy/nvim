@@ -1,5 +1,3 @@
--- TODO: переписать в будущем
-
 return {
 	{
 		"neovim/nvim-lspconfig",
@@ -11,12 +9,14 @@ return {
 				callback = function(args)
 					local opts = { buffer = args.buf }
 
+          -- NOTE: keybindings for lsp
 					vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
 					vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
 					vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
 				end,
 			})
 
+      -- FIXME: i don't know if i need that, so delete or add more languages  
 			vim.lsp.config("lua_ls", { capabilities = capabilities })
 			vim.lsp.config("pyright", { capabilities = capabilities })
 			vim.lsp.config("ts_ls", { capabilities = capabilities })
