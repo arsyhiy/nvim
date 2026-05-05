@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return{
   "folke/snacks.nvim",
   priority = 1000,

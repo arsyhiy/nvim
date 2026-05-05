@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return {
 	{
 		"neovim/nvim-lspconfig",

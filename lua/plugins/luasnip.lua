@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return {
   {
     "L3MON4D3/LuaSnip",

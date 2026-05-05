@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return{{
     'windwp/nvim-autopairs',
     event = "InsertEnter",

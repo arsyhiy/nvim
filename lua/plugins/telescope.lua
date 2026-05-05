@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return{
 {
     'nvim-telescope/telescope.nvim', version = '*',

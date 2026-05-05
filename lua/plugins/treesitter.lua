@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",

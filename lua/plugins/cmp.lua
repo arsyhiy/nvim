@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return {
 	{
 		"hrsh7th/nvim-cmp",

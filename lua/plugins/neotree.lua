@@ -1,3 +1,5 @@
+-- TODO: переписать в будущем
+
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
